@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: "Kimberley";
+  src: url("./fonts/kimberley.ttf");
+}
+
+
+@layer components {
+	.wrapper{
+		@apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+	}
+
+	.button{
+		@apply bg-bright-red text-vary-light-gray block py-4 px-12 w-max rounded-full;
+	}
+
+	.footer-area{
+		grid-template-areas: 
+		"form"
+		"nav"
+		"social-media"
+		"logo"
+		"copy"
+	}
+
+	.footer-area-md{
+		grid-template-areas: 
+		"logo          nav  form"		
+		"social-media  nav  copy"
+	}
+
+
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maprotel | Bienvenidos</title>
+  <link rel="icon" href="/src/images/icons/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm  dark:bg-neutral-800 bg-transparent">
+    <nav class="w-full fixed h-16 border-b-2 z-50 px-4 mx-auto sm:flex sm:items-center sm:justify-between" aria-label="Global">
+      <div class="flex items-center justify-between">
+        <a class="flex-none text-xl font-semibold dark:text-white" href="#">
+          <img src="./images/logo/logo-white.png" alt="" class="h-12">
+        </a>
+        <div class="sm:hidden">
+          <button type="button" class="inline-flex items-center justify-center p-2 text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm hs-collapse-toggle gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+            <svg class="flex-shrink-0 hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" x2="21" y1="6" y2="6" />
+              <line x1="3" x2="21" y1="12" y2="12" />
+              <line x1="3" x2="21" y1="18" y2="18" />
+            </svg>
+            <svg class="flex-shrink-0 hidden hs-collapse-open:block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="navbar-collapse-with-animation" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:block">
+        <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+          <a class="font-medium text-blue-500" href="#" aria-current="page">Home</a>
+          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Nosotros</a>
+          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Servicios</a>
+          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Productos</a>
+          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Contactos</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div id="indicators-carousel" class="relative" data-carousel="static">
+      <!-- Carousel wrapper -->
+      <div class="h-full overflow-hidden md:h-96">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+
+          <img src="./images/image-agent/slide-1.jpg" class="absolute block w-full h-screen" alt="Agente 1">
+          <h1 class="relative top-1/2 text-white text-4xl font-bold text-center">Brindamos Inteligencia
+            Tecnológica para su negocio</h1>
+          <p class="relative top-1/2 text-white mb-4 text-center">Lo acompañamos en su proceso de Transformación Digital,pues nuestra pasión es hacer que la tecnología sea el mejor aliado para su negocio.</p>
+
+          <a href="#" class="relative top-1/2 -translate-x-1/2 -translate-y-1/2  left-1/2 text-white bg-blue-500 hover:bg-blue-400 text-sm font-medium rounded-lg px-4 py-2 m-auto items-center text-center">Conocer más</a>
+
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/image-agent/slide-2.jpg" class="absolute block w-full h-screen object-cover" alt="Agente 2">
+          <h1 class="relative top-1/2 text-white text-4xl font-bold text-center">Brindamos Inteligencia
+            Tecnológica para su negocio</h1>
+          <p class="relative top-1/2 text-white mb-4 text-center">Lo acompañamos en su proceso de Transformación Digital,pues nuestra pasión es hacer que la tecnología sea el mejor aliado para su negocio.</p>
+
+          <a href="#" class="relative top-1/2 -translate-x-1/2 -translate-y-1/2  left-1/2 text-white bg-blue-500 hover:bg-blue-400 text-sm font-medium rounded-lg px-4 py-2 m-auto items-center text-center">Conocer más</a>
+        </div>
+
+      </div>
+
+
+      <!-- Slider indicators -->
+      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 rtl:space-x-reverse bottom-5 left-1/2">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer start-0 group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+          </svg>
+          <span class="sr-only">Previous</span>
+        </span>
+      </button>
+      <button type="button" class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer end-0 group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+          </svg>
+          <span class="sr-only">Next</span>
+        </span>
+      </button>
+    </div>
+
+
+    <main class="wrapper">
+
+      <section class="lg:py-24 relative" id="about">
+        <h1 class="py-20 text-5xl font-bold  text-center text-dark-blue-2 font-bakbak-one">Maprotel</h1>
+        <h3 class="text-2xl  mb-8 text-center font-bakbak-one text-black">Este es nuestro negocio</h3>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
+
+            <div class="lg:pl-[100px] flex items-center">
+              <div class="w-full">
+                <h2 class=" font-bold text-3xl lg:text-5xl font-bakbak-one text-black mb-8 max-lg:text-center relative">
+                  Inicios </h2>
+                <p class="font-normal font-montserrat text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto mb-8">
+                  Maprotel se fundó en el año 2000 con el objetivo de brindar soluciones de telecomunicaciones innovadoras y de alta calidad a personas, empresas e instituciones en Latinoamérica. La empresa comenzó con un pequeño equipo de ingenieros apasionados por la tecnología y una visión clara del futuro de las telecomunicaciones.
+                </p>
+                <h2 class="font-bakbak-one font-bold text-3xl lg:text-5xl text-black mb-8 max-lg:text-center relative">
+                  Trayectoria </h2>
+                <p class="font-montserrat text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                  En los últimos 24 años, Maprotel ha experimentado un crecimiento exponencial, convirtiéndose en una de las empresas de telecomunicaciones líderes en Latinoamérica. La empresa ha logrado este éxito gracias a su compromiso con la innovación, la calidad y el servicio al cliente.
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <img src="/src/images/logo/logo-azul-1.svg" alt="About Us tailwind page" class="max-lg:mx-auto">
+            </div>
+          </div>
+        </div>
+
+        <article class="py-14 lg:py-24 relative">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
+              <div class="">
+                <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="About Us tailwind page" class="max-lg:mx-auto">
+              </div>
+              <div class="lg:pl-[100px] flex items-center">
+                <div class="w-full">
+                  <h2 class="font-bakbak-one font-bold text-3xl lg:text-5xl text-black mb-8 max-lg:text-center relative">
+                    Visión </h2>
+                  <p class="font-montserrat text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto mb-8">
+                    Ser la empresa de telecomunicaciones líder en Latinoamérica, reconocida por su innovación, calidad y compromiso con la excelencia, conectando a las personas y transformando vidas a través de la tecnología.
+                  </p>
+                  <h2 class="font-bakbak-one font-bold text-3xl lg:text-5xl text-black mb-8 max-lg:text-center relative">
+                    Misión </h2>
+                  <p class="font-montserrat text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                    Misión de Maprotel
+                    Brindar soluciones de telecomunicaciones integrales, confiables y accesibles a personas, empresas e instituciones, impulsando el desarrollo social y económico de la región, con un equipo humano altamente capacitado y comprometido con la satisfacción del cliente.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article className="flex flex-wrap justify-center w-full text-slate-700 dark:text-white" id="cliente">
+          <div class="flex flex-wrap justify-center gap-5 lg:flex-col w-full">
+            <h1 class="text-3xl text-center lg:text-5xl font-bakbak-one mt-8 text-slate-800 dark:text-white">
+              Principales Clientes
+            </h1>
+
+            <p class="mt-8  text-center lg:text-2xl font-montserrat  text-slate-700 dark:text-white lg:mt-8">
+              En <span className="font-bold text-slate-700 dark:text-white"> Maprotel</span> servimos
+              a una amplia gama de clientes, desde startups hasta
+              grandes empresas.
+            </p>
+          </div>
+
+          <div class="flex flex-col flex-wrap items-center justify-between w-full  gap-20 mt-8 mb-8 lg:flex-row gap-y-15 md:gap-20 text-slate-700 dark:text-white">
+            <img class="w-[50px] grayscale dark:grayscale-0" src="./images/image-client/logo-saren.png" alt="Logo Saren" />
+
+            <img class="w-[200px] lg:w-[150px] grayscale dark:grayscale-0" src="./images/image-client/Elipse-Logo-Web-Azul.png" alt="Logo Eclipse" />
+
+            <img class="w-[200px] lg:w-[150px] grayscale dark:grayscale-0" src="./images/image-client/logo-seniat.svg" alt="Logo Seniat" />
+            <img class="w-[200px] lg:w-[160px] grayscale dark:grayscale-0" src="./images/image-client/licoreMundiales.svg" alt="Logo licores mundiales" />
+            <img class="w-[200px] lg:w-[150px] grayscale dark:grayscale-0" src="./images/image-client/logo-centro-medico-docente-la-trinidad.svg" alt="Logo Centro medico" />
+            <img class="w-[200px] lg:w-[120px] grayscale dark:grayscale-0" src="./images/image-client/Logo-net1-300x75-1.png" alt="Logo net 1" />
+          </div>
+        </article>
+      </section>
+
+
+      <!-- Sección de servicios -->
+      <section class="py-20 bg-gray-100 h-screen w-screen">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8 text-center">Nuestros servicios</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-bold mb-4">Tecnología para Contact Center</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Pellentesque fringilla tempor ullamcorper quisque dolor tincidunt nullam risus.</p>
+            </div>
+            <!-- Otros servicios -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+      <section class="py-20 h-screen w-screen ">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8 text-center">Contáctanos</h2>
+          <form class="max-w-md mx-auto">
+            <div class="mb-4">
+              <label class="block font-bold mb-2" for="name">Nombre</label>
+              <input class="w-full border border-gray-400 p-2 rounded" type="text" id="name" placeholder="Ingresa tu nombre">
+            </div>
+            <!-- Otros campos del formulario -->
+            <div class="mb-4">
+              <label class="block font-bold mb-2" for="message">Mensaje</label>
+              <textarea class="w-full border border-gray-400 p-2 rounded" id="message" rows="4" placeholder="Ingresa tu mensaje"></textarea>
+            </div>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 py-8 text-white">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2023 Maprotel. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <script src="js/flowbite.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "taiwind-curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scanTailwind": "npx tailwindcss -i ./src/css/config.css -o ./src/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.19",
+    "@fontsource/bakbak-one": "^5.0.20",
+    "flowbite": "^2.3.0",
+    "preline": "^2.1.0"
+  }
+}

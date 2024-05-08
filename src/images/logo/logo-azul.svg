@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81.491676mm"
+   height="36.328629mm"
+   viewBox="0 0 81.491676 36.328629"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="-308"
+       y="70"
+       width="308"
+       height="70"
+       id="rect2" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-64.558336,-111.65416)">
+    <g
+       id="g10"
+       transform="matrix(0.26458333,0,0,0.26458333,68.08909,161.70872)"
+       style="fill:#004094;fill-opacity:1">
+      <text
+         xml:space="preserve"
+         id="text2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Kimberley;-inkscape-font-specification:Kimberley;white-space:pre;shape-inside:url(#rect2);display:inline;opacity:1;fill:#004094;fill-opacity:1;stroke:none;stroke-linecap:square;paint-order:fill markers stroke"
+         transform="matrix(4.5746286,0,0,4.389872,1392.4205,-436.78151)"><tspan
+           x="-308"
+           y="84.704"
+           id="tspan1">Maprotel</tspan></text>
+      <g
+         id="g5"
+         style="fill:#004094;fill-opacity:1"
+         transform="translate(303.55519,-188.79745)">
+        <circle
+           style="opacity:1;fill:#004094;fill-opacity:1;stroke:none;stroke-width:1.02141;stroke-linecap:square;paint-order:fill markers stroke"
+           id="path2"
+           cx="-198.96826"
+           cy="57.749359"
+           r="12.725451" />
+        <rect
+           style="opacity:1;fill:#004094;fill-opacity:1;stroke:none;stroke-width:1.44713;stroke-linecap:square;paint-order:fill markers stroke"
+           id="rect4"
+           width="27.841217"
+           height="76.574318"
+           x="-142.73993"
+           y="-67.303696"
+           ry="13.920609"
+           transform="rotate(-28.084556)" />
+        <rect
+           style="opacity:1;fill:#004094;fill-opacity:1;stroke:none;stroke-width:1.44713;stroke-linecap:square;paint-order:fill markers stroke"
+           id="rect5"
+           width="27.841217"
+           height="76.574318"
+           x="-178.29187"
+           y="-86.274345"
+           ry="13.920609"
+           transform="rotate(-28.084556)" />
+      </g>
+    </g>
+  </g>
+</svg>
